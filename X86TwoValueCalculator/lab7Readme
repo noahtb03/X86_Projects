@@ -1,0 +1,11 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I STRICTLY ADHERED TO THE 
+TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY. 
+THIS IS THE README FILE FOR LAB 7. 
+
+Noah Bennett
+
+20 hours
+
+Sometimes it is hard keeping track of all of the different registers and looking at tui reg general gives me a headache, because there are so many large hex values
+
+I had multiple bugs that I used gdb to fix, one was that I was not correctly sign extending on all of my division, so I had to add two lines, one was shlq and the other was orq. Another issue I had was the issue of keeping track of all the different parameters for scanf, but I used gdb and tui reg general to figure out what was in rdi, rsi, rcx, and rdx.
