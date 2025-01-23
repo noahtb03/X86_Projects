@@ -1,0 +1,14 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I STRICTLY ADHERED TO THE 
+TENURES OF THE OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY. THIS IS THE README FILE FOR LAB 6.
+
+Author: Noah Bennett
+
+15 hours
+
+I kept getting an issue where the value of key was correct, until scanf was called in the while loop.
+
+I didn't write the C program, so no issues there
+
+I used gdb to find that my create_key function was returning massive numbers, and found that it was because I didn't reset the values in the r8d-r11d registers before using them. 
+
+Yes I did, I tried putting print statements in the c program along with the gdb I used prior to figure out where exactly my key value was being reset.
